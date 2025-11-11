@@ -41,7 +41,7 @@ export default function Skills() {
 
         <div className="skill-card">
           <SiDjango className="skill-icon" />
-          <p>Django (Beginner)</p>
+          <p>Django </p>
         </div>
 
         <div className="skill-card">
