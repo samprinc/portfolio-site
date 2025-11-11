@@ -1,0 +1,129 @@
+.contact-section {
+  padding: 6rem 2rem;
+  background-color: #111;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  margin-bottom: 1rem;
+}
+
+.contact-text {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto 2.5rem auto;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: #111;
+  background-color: #ffcc00;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.contact-link:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+}
+
+/* Optional extra content: email & location */
+.contact-extra {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.contact-extra p {
+  margin: 0;
+}
+
+/* Contact form styling */
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form button {
+  background-color: #ffcc00;
+  color: #111;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .contact-text {
+    font-size: 1rem;
+  }
+
+  .contact-link {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .contact-icon {
+    font-size: 1.3rem;
+  }
+
+  .contact-extra {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
