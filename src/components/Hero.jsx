@@ -8,7 +8,7 @@ function Hero() {
       <div className="hero-content">
         <h1 className="hero-title">Hi, I'm <span>Sammy Bett</span></h1>
         <p className="hero-subtitle">
-          I build <span>web</span> and <span>mobile</span> solutions that turn ideas into reality.
+          I build <span>web</span>  solutions that turn ideas into reality.
         </p>
         <div className="hero-buttons">
           <a href="#projects" className="btn btn-primary">View Projects</a>
