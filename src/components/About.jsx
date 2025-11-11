@@ -32,7 +32,7 @@ export default function About() {
 
           <div className="about-highlights">
             <div className="highlight-item">
-              <span>3+</span>
+              <span>10+</span>
               <p>Active Projects</p>
             </div>
             <div className="highlight-item">
